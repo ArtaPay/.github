@@ -1,12 +1,25 @@
 # ArtaPay
 
+![ArtaPay Banner](./banner.png)
+
 ArtaPay is a gasless stablecoin payment dApp on Base Sepolia. This repository
-contains the smart contracts, backend signer service, and frontend web app.
+contains the smart contracts, backend services, and frontend web app.
+
+## Features
+
+- **Gasless activation**: One-time token approval sponsored by the paymaster
+- **Base App login**: Supports Coinbase Base App and Privy wallets
+- **Multi-token payments**: Pay in any supported stablecoin
+- **Batch transfers**: Send to multiple recipients in one transaction
+- **ENS support**: Send to Base mainnet ENS names (via mainnet resolver)
+- **QR payments**: Generate and scan payment requests
+- **Stablecoin swaps**: Auto-swap during payments via StableSwap
+- **IDRX top-up**: Integrated IDRX API flow (backend-assisted)
 
 ## Projects
 
 - `artapay-sc` - Smart contracts (ERC-4337 paymaster, swap, payment processor)
-- `artapay-be` - Backend signer + StableSwap quote/calldata API (Express)
+- `artapay-be` - Backend signer, IDRX API integration, and swap helpers (Express)
 - `artapay-fe` - Frontend web app (Next.js)
 
 ## Quick Start
