@@ -2,12 +2,13 @@
 
 ![ArtaPay Banner](./banner.png)
 
-ArtaPay is a gasless stablecoin payment dApp on Base Sepolia. This repository
+ArtaPay is a gasless stablecoin payment dApp on Base Sepolia. Allows people to make transactions without Base ETH, just pay gas fees with stablecoin because paymaster (ERC-4337). This repository
 contains the smart contracts, backend services, and frontend web app.
 
 ## Features
 
 - **Gasless activation**: One-time token approval sponsored by the paymaster
+- **Gasless transactions**: Gasless every transactions
 - **Base App login**: Supports Coinbase Base App and Privy wallets
 - **Multi-token payments**: Pay in any supported stablecoin
 - **Batch transfers**: Send to multiple recipients in one transaction
