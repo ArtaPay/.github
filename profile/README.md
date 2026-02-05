@@ -14,6 +14,7 @@ contains the smart contracts, backend services, and frontend web app.
 - **Batch transfers**: Send to multiple recipients in one transaction
 - **ENS support**: Send to Base mainnet ENS names (via mainnet resolver)
 - **QR payments**: Generate and scan payment requests
+- **QRIS Supported**: Pay to QRIS (Quick Response Code Indonesian Standard)
 - **Stablecoin swaps**: Auto-swap during payments via StableSwap
 - **IDRX top-up**: Integrated IDRX API flow (backend-assisted)
 
