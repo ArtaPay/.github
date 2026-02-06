@@ -2,7 +2,7 @@
 
 ![ArtaPay Banner](./banner.png)
 
-ArtaPay is a gasless stablecoin cross-border payment dApp on Base Sepolia. Build for payment app that support every user needed. Allows people to make transactions without Base ETH, just pay gas fees with stablecoin because paymaster (ERC-4337). This repository
+ArtaPay is a gasless stablecoin cross-border payment dApp on Base Sepolia and Etherlink Shadownet. Build for payment app that support every user needed. Allows people to make transactions without Base ETH and Etherlink XTZ, just pay gas fees with stablecoin because paymaster (ERC-4337). This repository
 contains the smart contracts, backend services, and frontend web app.
 
 ## Features
@@ -12,7 +12,7 @@ contains the smart contracts, backend services, and frontend web app.
 - **Base App login**: Supports Coinbase Base App and Privy wallets
 - **Multi-token payments**: Pay in any supported stablecoin
 - **Batch transfers**: Send to multiple recipients in one transaction
-- **ENS support**: Send to Base mainnet ENS names (via mainnet resolver)
+- **ENS support**: Send to Base mainnet and Etherlink mainnet ENS names (via mainnet resolver)
 - **QR payments**: Generate and scan payment requests
 - **QRIS Supported**: Pay to QRIS (Quick Response Code Indonesian Standard)
 - **Stablecoin swaps**: Auto-swap during payments via StableSwap
