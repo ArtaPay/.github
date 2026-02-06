@@ -7,6 +7,7 @@ contains the smart contracts, backend services, and frontend web app.
 
 ## Features
 
+- **Multichain**: Support Base Sepolia and Etherlink Shadownet
 - **Gasless activation**: One-time token approval sponsored by the paymaster
 - **Gasless transactions**: Gasless every transactions
 - **Base App login**: Supports Coinbase Base App and Privy wallets
